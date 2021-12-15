@@ -9,7 +9,7 @@ const app = express()
 app.use(express.json())
 app.use(cors())
 
-const urldb = "mongodb+srv://admin:admin-teste@users.3nybg.mongodb.net/database?retryWrites=true&w=majority"
+const urldb = "[Add mongodb connection URL]"
 
 mongoose.connect(urldb, {useNewUrlParser:true, useUnifiedTopology:true})
 
